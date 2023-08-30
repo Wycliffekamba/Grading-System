@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning Javascript</title>
+</head>
+<body>
+    <script>
+
+        // let age =21;
+
+        // if(age>=0 && age<=17){
+        //    console.log("You are too young.");
+        // }else if(age>=18 && age<=100){
+        //    console.log("You can vote.");
+        // }else{
+        //     console.log("Invalid Age");
+        // }
+        
+        // let firstname=prompt("enter your name");
+        // let lastname=prompt("enter your name");
+
+        // let fullname= firstname +" "+lastname;
+        //         alert ("Your name is:" +fullname);
+        
+        // let score=prompt("Enter your score");
+        // if (score >=70 && score<=100) {
+        //     alert('A');
+        // }else if(score>=60 && score<=69){
+        //     alert('B');
+        // }else if(score>=50 && score<=59){
+        //     alert('C');
+        // }else if(score>=40 && score<=49){
+        //     alert('D');
+        // }else if(score<=39){
+        //     alert('E');  
+        // }else{
+        //     alert ('invalid score');
+        // }
+        
+            
+        let num1 = parseInt(prompt("Fundamentals of IT marks"));
+        let num2 = parseInt(prompt("Web Technology marks"));
+        let num3 = parseInt(prompt("Version Control marks"));
+
+        let totalMarks = num1 + num2 + num3;
+        let averageScore = totalMarks / 3;
+        
+
+        if (averageScore >= 70 && averageScore <= 100) {
+                alert("A");
+        } else if (averageScore >= 60 && averageScore <= 69) {
+                alert("B");
+        } else if (averageScore >= 50 && averageScore <= 59) {
+                alert("C");
+        } else if (averageScore >= 40 && averageScore <= 49) {
+                alert("D");
+        } else if (averageScore <40) {
+                alert("E");
+        } else {
+                alert("Invalid score");
+        }
+    </script>
+</body>
+</html>
